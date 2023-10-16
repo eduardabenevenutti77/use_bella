@@ -1,0 +1,21 @@
+.navbar{
+    background-color: #ffcbdb;
+}
+@font-face {
+    font-family: "winterbeauty";
+    src: url("./font/winterbeauty-Script.otf") format("truetype");
+}
+.fonte-alterada {
+    font-family: winterbeauty;
+    padding-top: 20px;
+    padding-left: 22px;
+    padding-right: 5px;
+    font-size: 35px;
+    color: black;
+}
+.nav-link{
+    margin-left: 5px;
+}
+.nav-item-home{
+    padding-left: 15px;
+}
