@@ -17,6 +17,9 @@
   margin-left: 5px;
   color: red;
 }
-.nav-item-home {
+.nav-item-home a:hover {
   padding-left: 15px;
+}
+.nav-link a:hover {
+  color: red;
 }
