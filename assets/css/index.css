@@ -20,6 +20,19 @@
 .nav-item-home a:hover {
   padding-left: 15px;
 }
+
 .nav-link a:hover {
   color: red;
+}
+
+.cadastro {
+  margin-left: 990px;
+  padding-left: 150px;
+  font-size: 23px;
+  font-family: winterbeauty;
+}
+.login {
+  /*padding-left: 150px;*/
+  font-size: 23px;
+  font-family: winterbeauty;
 }
