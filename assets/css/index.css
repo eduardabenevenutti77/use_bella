@@ -20,3 +20,14 @@
 .nav-item-home {
   padding-left: 15px;
 }
+.cadastro{
+  margin-left: 990px;
+  padding-left: 150px;
+  font-size: 23px;
+  font-family: winterbeauty;
+}
+.login{
+  /*padding-left: 150px;*/
+  font-size: 23px;
+  font-family: winterbeauty;
+}
