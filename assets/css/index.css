@@ -28,11 +28,27 @@
 .cadastro {
   margin-left: 990px;
   padding-left: 150px;
-  font-size: 23px;
+  font-size: 20px;
   font-family: winterbeauty;
 }
 .login {
   /*padding-left: 150px;*/
-  font-size: 23px;
+  font-size: 20px;
   font-family: winterbeauty;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("./font/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+.titulo{
+  margin-top: 110px;
+  text-align: center;
+  letter-spacing: 0.15px;
+  font-family: Montserrat;
+  font-size: 35px;
+}
+.descricao{
+  text-align: center;
+  padding-left: 55px;
+  padding-right: 55px;
 }
