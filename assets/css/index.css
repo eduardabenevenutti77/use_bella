@@ -40,15 +40,26 @@
   font-family: "Montserrat";
   src: url("./font/Montserrat-VariableFont_wght.ttf") format("truetype");
 }
-.titulo{
+.titulo {
   margin-top: 110px;
   text-align: center;
   letter-spacing: 0.15px;
   font-family: Montserrat;
   font-size: 35px;
 }
-.descricao{
+.descricao {
   text-align: center;
   padding-left: 55px;
   padding-right: 55px;
+}
+.saudacao {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 50px;
+  font-family: "BerkshireSwash-Regular";
+}
+@font-face {
+  font-family: "BerkshireSwash-Regular";
+  src: url("./font/Berkshire_Swash/BerkshireSwash-Regular.ttf")
+    format("truetype");
 }
