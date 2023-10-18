@@ -11,6 +11,7 @@
     padding-left: 22px;
     padding-right: 5px;
     font-size: 35px;
+    /* font-size: 35px; */
     color: black;
   }
   .nav-link a:hover {
@@ -21,8 +22,8 @@
     padding-left: 15px;
   }
   .cadastro {
-    margin-left: 990px;
-    padding-left: 150px;
+    margin-left: 610px;
+    padding-left: 95px;
     font-size: 20px;
     font-family: winterbeauty;
   }
