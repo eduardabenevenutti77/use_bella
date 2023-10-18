@@ -54,4 +54,11 @@
 }
 .saudacao {
   text-align: center;
+  padding-top: 50px;
+  font-family: "BerkshireSwash-Regular";
+}
+@font-face {
+  font-family: "BerkshireSwash-Regular";
+  src: url("./font/Berkshire_Swash/BerkshireSwash-Regular.ttf")
+    format("truetype");
 }
