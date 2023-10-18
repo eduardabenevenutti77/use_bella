@@ -40,15 +40,18 @@
   font-family: "Montserrat";
   src: url("./font/Montserrat-VariableFont_wght.ttf") format("truetype");
 }
-.titulo{
+.titulo {
   margin-top: 110px;
   text-align: center;
   letter-spacing: 0.15px;
   font-family: Montserrat;
   font-size: 35px;
 }
-.descricao{
+.descricao {
   text-align: center;
   padding-left: 55px;
   padding-right: 55px;
+}
+.saudacao p {
+  text-align: center;
 }
