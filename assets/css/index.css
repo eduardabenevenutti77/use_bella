@@ -5,6 +5,9 @@
   font-family: "winterbeauty";
   src: url("./font/winterbeauty-Script.otf") format("truetype");
 }
+body {
+  background-color: #f1f1f1;
+}
 .fonte-alterada {
   font-family: winterbeauty;
   padding-top: 20px;
@@ -20,7 +23,7 @@
   padding-left: 15px;
 }
 .cadastro {
-  margin-left: 990px;
+  margin-left: 500px;
   padding-left: 150px;
   font-size: 20px;
   font-family: winterbeauty;
@@ -35,7 +38,7 @@
   src: url("./font/Montserrat-VariableFont_wght.ttf") format("truetype");
 }
 .titulo {
-  margin-top: 110px;
+  margin-top: 10px;
   text-align: center;
   letter-spacing: 0.15px;
   font-family: Montserrat;
