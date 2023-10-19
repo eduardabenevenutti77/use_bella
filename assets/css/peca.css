@@ -1,6 +1,44 @@
 .navbar {
-  background-color: #87054a;
-}
+    background-color: #87054a;
+  }
+  @font-face {
+    font-family: "winterbeauty";
+    src: url("./font/winterbeauty-Script.otf") format("truetype");
+  }
+  .fonte-alterada {
+    font-family: winterbeauty;
+    padding-top: 20px;
+    padding-left: 22px;
+    padding-right: 5px;
+    font-size: 35px;
+    /* font-size: 35px; */
+    color: black;
+  }
+  .nav-link a:hover {
+    margin-left: 5px;
+    color: red;
+  }
+  .nav-item-home {
+    padding-left: 15px;
+  }
+  .cadastro {
+    margin-left: 510px;
+    padding-left: 95px;
+    font-size: 20px;
+    font-family: winterbeauty;
+  }
+  .login {
+    /*padding-left: 150px;*/
+    font-size: 20px;
+    font-family: winterbeauty;
+  }
+  .container-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 20px;
+  }
 @font-face {
   font-family: "winterbeauty";
   src: url("./font/winterbeauty-Script.otf") format("truetype");
@@ -22,7 +60,7 @@
   padding-left: 15px;
 }
 .cadastro {
-  margin-left: 610px;
+  margin-left: 510px;
   padding-left: 95px;
   font-size: 20px;
   font-family: winterbeauty;
