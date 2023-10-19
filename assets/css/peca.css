@@ -1,3 +1,6 @@
+body{
+  background-color: #f1f1f1;
+}
 .navbar {
     background-color: #87054a;
   }
@@ -50,7 +53,7 @@
   padding-right: 5px;
   font-size: 35px;
   /* font-size: 35px; */
-  color: black;
+  color: white;
 }
 .nav-link a:hover {
   margin-left: 5px;
@@ -69,4 +72,7 @@
   /*padding-left: 150px;*/
   font-size: 20px;
   font-family: winterbeauty;
+}
+.card{
+  background-color: #f1f1f1;
 }
