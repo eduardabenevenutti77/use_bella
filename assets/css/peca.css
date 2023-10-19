@@ -33,9 +33,10 @@ body{
   }
   .container-card{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding-top: 20px;
     justify-items: center;
+    gap: 5px;
     /* padding-left: 80px;
     padding-right: 20px; */
   }
