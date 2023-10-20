@@ -1,5 +1,5 @@
 body {
-  background-color: #1ed187;
+  background-color: #15a368;
 }
 .container {
   width: 700px;
@@ -45,7 +45,7 @@ body {
   text-align: left;
 }
 #submit {
-  background: #1ed187;
+  background: #15a368;
   flex-shrink: 0;
   color: white;
   text-align: center;
@@ -59,7 +59,7 @@ body {
   margin-top: 10px;
   border-radius: 4px;
   margin-bottom: 50px;
-  border-color: #1ed187;
+  border-color: #15a368;
 }
 input {
   border: none;
