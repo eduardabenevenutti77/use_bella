@@ -10,8 +10,8 @@ body {
 }
 .bordas {
   background-color: #f1f1f1;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .fundo img {
   width: 100%;
@@ -59,6 +59,8 @@ body {
   padding-left: 55px;
   padding-right: 55px;
   padding: 20px;
+  margin-left: 500px;
+  margin-right: 500px;
   font-size: 25px;
   font-family: BerkshireSwash-Regular;
 }
@@ -75,15 +77,15 @@ body {
     format("truetype");
 }
 .carousel-item img {
-  max-width: 400px;
+  max-width: 500px;
   height: auto;
+  margin-bottom: 100px;
+  padding: 0px;
+  margin-left: 1030px;
 }
-.carousel-item img {
-  margin-bottom: 50px;
-  padding: 50px;
-  justify-items: center;
+.carousel-item active img {
+  align-items: center;
 }
-.carousel-control-prev,
-.carousel-control-next {
-  color: blue;
+.carousel-inner {
+  background-color: #f1f1f1;
 }
