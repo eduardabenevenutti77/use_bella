@@ -74,3 +74,8 @@ body {
   src: url("./font/Berkshire_Swash/BerkshireSwash-Regular.ttf")
     format("truetype");
 }
+.carousel-item active {
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
