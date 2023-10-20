@@ -75,11 +75,13 @@ body {
     format("truetype");
 }
 .carousel-item img {
-  max-width: 800px;
+  max-width: 400px;
   height: auto;
 }
 .carousel-item img {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  padding: 50px;
+  justify-items: center;
 }
 .carousel-control-prev,
 .carousel-control-next {
