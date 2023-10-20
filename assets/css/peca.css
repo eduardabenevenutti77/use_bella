@@ -2,43 +2,42 @@ body {
   background-color: #f1f1f1;
 }
 .navbar {
-
-    background-color: #87054a;
-  }
-  @font-face {
-    font-family: "winterbeauty";
-    src: url("./font/winterbeauty-Script.otf") format("truetype");
-  }
-  .fonte-alterada {
-    font-family: winterbeauty;
-    padding-top: 20px;
-    padding-left: 22px;
-    padding-right: 5px;
-    font-size: 35px;
-    /* font-size: 35px; */
-    color: black;
-  }
-  .nav-item-home {
-    padding-left: 15px;
-  }
-  .cadastro {
-    margin-left: 5800px;
-    padding-left: 95px;
-    font-size: 25px;
-    font-family: winterbeauty;
-  }
-  .login {
-    /*padding-left: 150px;*/
-    font-size: 25px;
-    font-family: winterbeauty;
-  }
-  .container-card{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding-top: 20px;
-    justify-items: center;
-    gap: 5px;
-    /* padding-left: 80px;
+  background-color: #1ed187;
+}
+@font-face {
+  font-family: "winterbeauty";
+  src: url("./font/winterbeauty-Script.otf") format("truetype");
+}
+.fonte-alterada {
+  font-family: winterbeauty;
+  padding-top: 20px;
+  padding-left: 22px;
+  padding-right: 5px;
+  font-size: 35px;
+  /* font-size: 35px; */
+  color: black;
+}
+.nav-item-home {
+  padding-left: 15px;
+}
+.cadastro {
+  margin-left: 5800px;
+  padding-left: 95px;
+  font-size: 25px;
+  font-family: winterbeauty;
+}
+.login {
+  /*padding-left: 150px;*/
+  font-size: 25px;
+  font-family: winterbeauty;
+}
+.container-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 20px;
+  justify-items: center;
+  gap: 5px;
+  /* padding-left: 80px;
   background-color: #87054a;*/
 }
 /* @font-face {
@@ -52,7 +51,7 @@ body {
   padding-right: 5px;
   font-size: 35px;
   /* font-size: 35px; */
-  /*color: black;
+/*color: black;
 } */
 .nav-item-home {
   padding-left: 15px;
