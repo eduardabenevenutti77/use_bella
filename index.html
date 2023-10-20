@@ -58,23 +58,30 @@
     <p class="descricao">Junte-se a nós em nossa jornada de moda e autoexpressão. Esperamos que você encontre exatamente o que procura e que sua experiência de compra seja inesquecível.
       Obrigada por escolher Use Bella como seu destino de moda. <br>Seja bem-vinda!</p>
   </div>
-
   <script type="module">
     import * as bootstrap from 'bootstrap'
     new bootstrap.Popover(document.getElementById('popoverButton'))
   </script>
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="./assets/css/imgs/blusa_preta.jpg" class="d-block w-3" alt="blusa preta">
+        <img src="./assets/css/imgs/dress.jpg" class="d-block w-1" alt="vestido">
       </div>
       <div class="carousel-item">
-        <img src="./assets/css/imgs/branca.jpg" class="d-block w-3" alt="roupa branca">
+        <img src="./assets/css/imgs/blusa_preta.jpg" class="d-block w-1" alt="blusa preta">
       </div>
       <div class="carousel-item">
-        <img src="./assets/css/imgs/bolsa_rosa.jpg" class="d-block w-3" alt="bolsa rosa">
+        <img src="./assets/css/imgs/calca.jpg" class="d-block w-1" alt="calca bege">
       </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 </body>
 
