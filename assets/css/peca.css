@@ -10,11 +10,10 @@ body {
 }
 .fonte-alterada {
   font-family: winterbeauty;
-  padding-top: 20px;
+  padding-top: 25px;
   padding-left: 22px;
   padding-right: 5px;
   font-size: 35px;
-  /* font-size: 35px; */
   color: black;
 }
 .nav-item-home {
