@@ -43,10 +43,10 @@ body {
 }
 
 .card {
-  background-color: #fff; /* Defina a cor de fundo que desejar */
-  padding: 20px; /* Adicione preenchimento para separar o conteúdo do card */
-  border-radius: 5px; /* Opcional: Adicione bordas arredondadas ao card */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Opcional: Adicione sombra ao card */
+  background-color: #fff; 
+  padding: 20px; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 .dropdown-content {
