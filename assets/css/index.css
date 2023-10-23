@@ -51,27 +51,21 @@ body {
     font-size: 20px;
   }
 
+  .cadastro {
+    margin-left: 1200px;
+    font-size: 20px;
+  }
+
+  .login {
+    font-size: 20px;
+  }
+
   .fonte-alterada {
     padding-top: 20px;
     padding-left: 22px;
     padding-right: 5px;
     font-size: 35px;
-    color: #f1f1f1;
-    font-family: winterbeauty;
-  }
-
-  .cadastro {
-    margin-left: 950px;
-    padding-left: 263px;
-    font-size: 20px;
-    font-family: winterbeauty;
-  }
-
-  .login {
-    margin-right: 10px;
-    padding-left: 0;
-    font-size: 20px;
-    font-family: winterbeauty;
+    color: white;
   }
 
   @font-face {
