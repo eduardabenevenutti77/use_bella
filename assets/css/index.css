@@ -2,23 +2,53 @@
   font-family: "winterbeauty";
   src: url("./font/winterbeauty-Script.otf") format("truetype");
 }
+
 body {
   background-color: #f1f1f1;
+  margin: 0; /* Remova as margens padrão do body */
 }
+
 .bordas {
   background-color: #f1f1f1;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
+  margin: 0;
 }
+
+/* Estilos padrão para telas pequenas */
+
+.index {
+  font-size: 20px;
+  padding-left: 10px; /* Ajuste o padding para telas menores */
+  font-family: "winterbeauty";
+  color: #000; /* Cor de texto para telas menores */
+}
+
+.navbar {
+  background-color: #15a368;
+}
+
+.fonte-alterada {
+  padding: 20px;
+  font-size: 35px;
+  color: #f1f1f1;
+  font-family: winterbeauty;
+}
+
+.cadastro {
+  font-size: 20px;
+  font-family: winterbeauty;
+}
+
+.login {
+  font-size: 20px;
+  font-family: winterbeauty;
+}
+
+/* Media Query para telas maiores (1024px ou mais) */
 @media screen and (min-width: 1024px) {
-  index {
+  .index {
     margin-left: 340px;
     padding-left: 245px;
     font-size: 20px;
-  }
-  .navbar {
-    background-color: #15a368;
   }
 
   .fonte-alterada {
@@ -27,26 +57,28 @@ body {
     padding-right: 5px;
     font-size: 35px;
     color: #f1f1f1;
-    padding-right: 20px;
     font-family: winterbeauty;
   }
+
   .cadastro {
-    margin-left: 320px;
+    margin-left: 950px;
     padding-left: 263px;
-    padding-right: 20px;
     font-size: 20px;
     font-family: winterbeauty;
   }
+
   .login {
     margin-right: 10px;
-    padding-left: 0px;
+    padding-left: 0;
     font-size: 20px;
     font-family: winterbeauty;
   }
+
   @font-face {
     font-family: "Montserrat";
     src: url("./font/Montserrat-VariableFont_wght.ttf") format("truetype");
   }
+
   .titulo {
     margin-top: 10px;
     text-align: center;
@@ -54,17 +86,15 @@ body {
     font-family: BerkshireSwash-Regular;
     font-size: 32px;
   }
+
   .descricao {
     text-align: center;
-    padding-left: 55px;
-    padding-right: 55px;
     padding: 20px;
-    margin-left: 300px;
-    margin-right: 300px;
-    margin-bottom: 0px;
+    margin: 0 auto;
     font-size: 25px;
     font-family: BerkshireSwash-Regular;
   }
+
   .saudacao {
     text-align: center;
     font-size: 40px;
@@ -72,23 +102,23 @@ body {
     font-family: "BerkshireSwash-Regular";
     color: #1ed187;
   }
+
   @font-face {
     font-family: "BerkshireSwash-Regular";
-    src: url("./font/Berkshire_Swash/BerkshireSwash-Regular.ttf")
-      format("truetype");
+    src: url("./font/Berkshire_Swash/BerkshireSwash-Regular.ttf") format("truetype");
   }
+
   .carousel-item img {
-    max-width: 350px;
+    max-width: 100%; /* Redimensionado para telas maiores */
     height: auto;
-    margin-bottom: 100px;
-    padding: 0%;
-    margin-left: 43%;
+    margin-bottom: 20px;
+    margin: 0 auto; /* Centralizado na tela */
     border-radius: 20px;
   }
+
   .carousel-inner {
-    /* cor de fundo do carousel */
     background-color: #f1f1f1;
     padding-top: 30px;
-    margin-top: 0px;
+    margin: 0 auto;
   }
 }
