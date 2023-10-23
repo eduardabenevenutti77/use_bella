@@ -1,13 +1,16 @@
 body {
   background-color: #f1f1f1;
 }
+
 .navbar {
   background-color: #15a368;
 }
+
 @font-face {
   font-family: "winterbeauty";
   src: url("./font/winterbeauty-Script.otf") format("truetype");
 }
+
 .fonte-alterada {
   font-family: winterbeauty;
   padding-top: 25px;
@@ -16,81 +19,36 @@ body {
   font-size: 35px;
   color: black;
 }
+
 .nav-item-home {
   padding-left: 15px;
 }
+
 .cadastro {
-  margin-left: 5800px;
-  padding-left: 95px;
   font-size: 25px;
   font-family: winterbeauty;
 }
+
 .login {
-  /*padding-left: 150px;*/
   font-size: 25px;
   font-family: winterbeauty;
 }
+
 .container-card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding-top: 20px;
   justify-items: center;
   gap: 5px;
-  /* padding-left: 80px;
-  background-color: #87054a;*/
 }
-/* @font-face {
-  font-family: "winterbeauty";
-  src: url("./font/winterbeauty-Script.otf") format("truetype");
-}
-.fonte-alterada {
-  font-family: winterbeauty;
-  padding-top: 20px;
-  padding-left: 22px;
-  padding-right: 5px;
-  font-size: 35px;
-  /* font-size: 35px; */
-/*color: black;
-} */
-.nav-item-home {
-  padding-left: 15px;
-}
-.cadastro {
-  margin-left: 1000px;
-  padding-left: 100px;
-  font-size: 25px;
-  font-family: winterbeauty;
-}
-.login {
-  padding-left: 15px;
-  font-size: 25px;
-  font-family: winterbeauty;
-}
-.container-card {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  padding-top: 20px;
-  justify-items: center;
-  gap: 5px;
-  /* padding-left: 80px;
-    padding-right: 20px; */
-}
-@font-face {
-  font-family: "winterbeauty";
-  src: url("./font/winterbeauty-Script.otf") format("truetype");
-}
-.fonte-alterada {
-  font-family: winterbeauty;
-  padding-top: 20px;
-  padding-left: 22px;
-  padding-right: 5px;
-  font-size: 35px;
-  /* font-size: 35px; */
-  color: white;
-}
+
 .card {
-  background-color: #f1f1f1;
+  background-color: #fff; 
+  padding: 20px; 
+  border-radius: 5px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
+
 .dropdown-content {
   display: none;
   position: absolute;
@@ -103,30 +61,28 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+/* Media Query para telas maiores (1024px ou mais) */
 @media screen and (min-width: 1024px) {
   .cadastro {
-    margin-left: 340px;
-    padding-left: 245px;
+    margin-left: 1200px;
     font-size: 20px;
   }
+
   .login {
-    /*padding-left: 150px;*/
     font-size: 20px;
-    font-family: winterbeauty;
   }
+
   .fonte-alterada {
-    font-family: winterbeauty;
     padding-top: 20px;
     padding-left: 22px;
     padding-right: 5px;
     font-size: 35px;
-    /* font-size: 35px; */
     color: white;
   }
+
   .container-card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding-top: 20px;
+    grid-template-columns: repeat(3, 1fr);
     padding-left: 80px;
     padding-right: 20px;
   }

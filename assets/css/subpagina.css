@@ -158,3 +158,30 @@ select.form-select {
     color: white;
   }
 }
+.text {
+  margin: 5px 0;
+}
+.row .col {
+  margin: 0;
+}
+select.form-select {
+  margin-right: 10px;
+}
+@media screen and (min-width: 1024px) {
+  .cadastro {
+    margin-left: 1100px;
+    font-size: 20px;
+  }
+
+  .login {
+    font-size: 20px;
+  }
+
+  .fonte-alterada {
+    padding-top: 20px;
+    padding-left: 22px;
+    padding-right: 5px;
+    font-size: 35px;
+    color: white;
+  }
+}
