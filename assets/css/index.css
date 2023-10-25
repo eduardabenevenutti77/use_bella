@@ -66,6 +66,22 @@ body {
     padding-right: 5px;
     font-size: 35px;
     color: white;
+    color: #f1f1f1;
+    font-family: winterbeauty;
+  }
+
+  .cadastro {
+    margin-left: 950px;
+    padding-left: 263px;
+    font-size: 20px;
+    font-family: winterbeauty;
+  }
+
+  .login {
+    margin-right: 10px;
+    padding-left: 6px;
+    font-size: 20px;
+    font-family: winterbeauty;
   }
 
   @font-face {
@@ -99,11 +115,12 @@ body {
 
   @font-face {
     font-family: "BerkshireSwash-Regular";
-    src: url("./font/Berkshire_Swash/BerkshireSwash-Regular.ttf") format("truetype");
+    src: url("./font/Berkshire_Swash/BerkshireSwash-Regular.ttf")
+      format("truetype");
   }
 
   .carousel-item img {
-    max-width: 100%; /* Redimensionado para telas maiores */
+    max-width: 300px; /* Redimensionado para telas maiores */
     height: auto;
     margin-bottom: 20px;
     margin: 0 auto; /* Centralizado na tela */

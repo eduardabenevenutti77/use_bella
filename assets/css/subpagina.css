@@ -1,119 +1,152 @@
 body {
-    background-color: #f1f1f1;
-  }
-  .navbar {
-    background-color: #15a368;
-  }
-  @font-face {
+  background-color: #f1f1f1;
+}
+.navbar {
+  background-color: #15a368;
+}
+@font-face {
+  font-family: "winterbeauty";
+  src: url("./font/winterbeauty-Script.otf") format("truetype");
+}
+.fonte-alterada {
+  font-family: winterbeauty;
+  padding-top: 25px;
+  padding-left: 22px;
+  padding-right: 5px;
+  font-size: 35px;
+  color: black;
+}
+.fonte-alterada-char {
+  font-family: winterbeauty;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 80px;
+}
+.nav-item-home {
+  padding-left: 15px;
+}
+img {
+  height: 340px;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-bottom: 25px;
+}
+@font-face {
+  font-family: "BerkshireSwash-Regular";
+  src: url("./font/Berkshire_Swash/BerkshireSwash-Regular.ttf")
+    format("truetype");
+}
+.text {
+  font-family: BerkshireSwash-Regular;
+  margin-top: 55px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.container {
+  gap: 4px;
+}
+.input-group {
+  margin-top: 55px;
+}
+label {
+  font-family: "BerkshireSwash-Regular";
+  font-size: 21px;
+  letter-spacing: 0.75px;
+}
+.cadastro {
+  margin-left: 5800px;
+  padding-left: 95px;
+  font-size: 25px;
+  font-family: winterbeauty;
+}
+.login {
+  /*padding-left: 150px;*/
+  font-size: 25px;
+  font-family: winterbeauty;
+}
+.btn {
+  background-color: #15a368;
+  border-radius: 10px;
+  width: 300px;
+  color: white;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-weight: 500;
+}
+/* @font-face {
     font-family: "winterbeauty";
     src: url("./font/winterbeauty-Script.otf") format("truetype");
   }
   .fonte-alterada {
     font-family: winterbeauty;
-    padding-top: 25px;
+    padding-top: 20px;
     padding-left: 22px;
     padding-right: 5px;
     font-size: 35px;
-    color: black;
-  }
-  .fonte-alterada-char{
-    font-family: winterbeauty;
-    color: black;
-    text-align: center;
-    font-size: 40px;
-    margin-top: 80px;
-  }
-  .nav-item-home {
-    padding-left: 15px;
-  }
-  img{
-    height: 340px;
-    border-radius: 10px;
-    margin-top: 50px;
-    margin-left: 15px;
-    margin-bottom: 25px;
-  }
-  @font-face {
-    font-family: "BerkshireSwash-Regular";
-    src: url("./font/Berkshire_Swash/BerkshireSwash-Regular.ttf")
-      format("truetype");
-  }
-  .text{
-    font-family: BerkshireSwash-Regular;
-    margin-top: 55px;
-    font-weight: 400;
-    font-size: 20px;
-  }
-  .container{
-    gap: 4px;
-  }
-  .input-group{
-    margin-top: 55PX;
-  }
-  label{
-    font-family: "BerkshireSwash-Regular";
-    font-size: 21px;
-    letter-spacing: 0.75px;
-  }
+    /* font-size: 35px; */
+/*color: black;
+  } */
+.nav-item-home {
+  padding-left: 15px;
+}
+.cadastro {
+  margin-left: 1000px;
+  padding-left: 100px;
+  font-size: 25px;
+  font-family: winterbeauty;
+}
+.login {
+  padding-left: 15px;
+  font-size: 25px;
+  font-family: winterbeauty;
+}
+.container-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 20px;
+  justify-items: center;
+  gap: 5px;
+  /* padding-left: 80px;
+      padding-right: 20px; */
+}
+@font-face {
+  font-family: "winterbeauty";
+  src: url("./font/winterbeauty-Script.otf") format("truetype");
+}
+.fonte-alterada {
+  font-family: winterbeauty;
+  padding-top: 20px;
+  padding-left: 22px;
+  padding-right: 5px;
+  font-size: 35px;
+  /* font-size: 35px; */
+  color: white;
+}
+.col-md-6 {
+  margin-top: 50px;
+  padding: 0;
+}
+.text {
+  margin: 5px 0;
+}
+.row .col {
+  margin: 0;
+}
+select.form-select {
+  margin-right: 10px;
+}
+@media screen and (min-width: 1024px) {
   .cadastro {
-    margin-left: 5800px;
-    padding-left: 95px;
-    font-size: 25px;
-    font-family: winterbeauty;
+    margin-left: 340px;
+    padding-left: 245px;
+    font-size: 20px;
   }
   .login {
     /*padding-left: 150px;*/
-    font-size: 25px;
+    font-size: 20px;
     font-family: winterbeauty;
-  }
-  .btn{
-    background-color: #15a368;
-    border-radius: 10px;
-    width: 300px;
-    color: white;
-    margin-left: 100px;
-    margin-top: 50px;
-    font-weight: 500;
-  }
-  /* @font-face {
-    font-family: "winterbeauty";
-    src: url("./font/winterbeauty-Script.otf") format("truetype");
-  }
-  .fonte-alterada {
-    font-family: winterbeauty;
-    padding-top: 20px;
-    padding-left: 22px;
-    padding-right: 5px;
-    font-size: 35px;
-    /* font-size: 35px; */
-  /*color: black;
-  } */
-  .nav-item-home {
-    padding-left: 15px;
-  }
-  .cadastro {
-    margin-left: 1000px;
-    padding-left: 100px;
-    font-size: 25px;
-    font-family: winterbeauty;
-  }
-  .login {
-    padding-left: 15px;
-    font-size: 25px;
-    font-family: winterbeauty;
-  }
-  .container-card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding-top: 20px;
-    justify-items: center;
-    gap: 5px;
-    /* padding-left: 80px;
-      padding-right: 20px; */
-  }
-  @font-face {
-    font-family: "winterbeauty";
-    src: url("./font/winterbeauty-Script.otf") format("truetype");
   }
   .fonte-alterada {
     font-family: winterbeauty;
@@ -124,18 +157,15 @@ body {
     /* font-size: 35px; */
     color: white;
   }
-  .col-md-6 {
-    margin-top: 50px;
-    padding: 0; 
 }
-  .text {
-    margin: 5px 0; 
+.text {
+  margin: 5px 0;
 }
-  .row .col {
-    margin: 0; 
+.row .col {
+  margin: 0;
 }
-  select.form-select {
-    margin-right: 10px; 
+select.form-select {
+  margin-right: 10px;
 }
 @media screen and (min-width: 1024px) {
   .cadastro {
@@ -155,5 +185,3 @@ body {
     color: white;
   }
 }
-
-  
